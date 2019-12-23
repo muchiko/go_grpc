@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package socket;
+package pb;
 
 service SocketService {
   rpc Transport(stream Request) returns (stream Payload) {}
